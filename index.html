@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- vinculamos cdn font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- vinculamos hoja de estilos -->
     <link rel="stylesheet" href="./css/style.css">
     <title>Portafolio Jhon Trujillo</title>
 </head>
+
 <body>
-    <!-- Menu Encabezado -->
-     <div class="contenedor-header">
+    <!-- MENU-->
+    <div class="contenedor-header">
         <header>
             <div class="logo">
                 <a href="#">Jhon</a>
@@ -27,16 +31,16 @@
                 </ul>
             </nav>
             <div class="nav-responsive">
-                <i class="fa-solid fa-bars"></i> 
+                <i class="fa-solid fa-bars"></i>
             </div>
         </header>
-     </div>
-    
-     <!-- Seccion Inicio  -->
-      <section id="inicio" class="inicio">
+    </div>
+
+    <!-- SECCION INICIO  -->
+    <section id="inicio" class="inicio">
         <div class="contenedor-banner">
             <div class="contenedor-img">
-                <img src="./img/Foto.jpg" alt="foto perfil">
+                <img src="./img/Foto Fondo Blanco.jpg" alt="foto perfil">
             </div>
             <h1>Jhon Trujillo</h1>
             <h2>Ingeniero de Sistemas - Frontend</h2>
@@ -46,6 +50,89 @@
                 <a href="https://github.com/JhonTrujillo"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
-      </section>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section class="contenedor-sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jhon Trujillo.</span>
+                Ingeniero de sistemas de la Universidad del Tolima con
+                Capacidad para trabajar en equipo, excelentes
+                relaciones interpersonales. Alto grado de
+                responsabilidad y fácil interpretación de las políticas
+                organizacionales. Ganas de aprender y fácil adaptación.
+            </p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            09-08-1990
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            3144826300
+                        </li>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            09-08-1990
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            jhonhtg90@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Ibagué - Tolima
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrollador Web - Junior</span>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Fotos</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>Programar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV
+                <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
 </body>
+
 </html>

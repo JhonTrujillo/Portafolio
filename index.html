@@ -22,12 +22,12 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="inicio">INICIO</a></li>
-                    <li><a href="sobremi">SOBRE MI</a></li>
-                    <li><a href="skills">SKILLS</a></li>
-                    <li><a href="curriculum">CURRICULUM</a></li>
-                    <li><a href="portafolio">PORTAFOLIO</a></li>
-                    <li><a href="contacto">CONTACTO</a></li>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#sobremi">SOBRE MI</a></li>
+                    <!-- <li><a href="skills">SKILLS</a></li>
+                    <li><a href="curriculum">CURRICULUM</a></li> -->
+                    <li><a href="#portfolio">PORTAFOLIO</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
                 </ul>
             </nav>
             <div class="nav-responsive">
@@ -53,7 +53,7 @@
     </section>
 
     <!-- SECCION SOBRE MI -->
-    <section class="contenedor-sobremi">
+    <section class="contenedor-sobremi" id="sobremi">
         <div class="contenido-seccion">
             <h2>Sobre Mí</h2>
             <p><span>Hola, soy Jhon Trujillo.</span>
@@ -102,26 +102,21 @@
 
                 <!-- intereses -->
                 <div class="col">
-                    <h3>Intereses</h3>
+                    <h3>Skills</h3>
                     <div class="contenedor-intereses">
                         <div class="interes">
-                            <i class="fa-solid fa-gamepad"></i>
-                            <span>Juegos</span>
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML5</span>
                         </div>
 
                         <div class="interes">
-                            <i class="fa-solid fa-camera"></i>
-                            <span>Fotos</span>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span>CSS</span>
                         </div>
 
                         <div class="interes">
-                            <i class="fa-solid fa-headphones"></i>
-                            <span>Musica</span>
-                        </div>
-
-                        <div class="interes">
-                            <i class="fa-solid fa-computer"></i>
-                            <span>Programar</span>
+                            <i class="fa-brands fa-js"></i>
+                            <span>JavaScript</span>
                         </div>
                     </div>
                 </div>
@@ -133,6 +128,72 @@
             </button>
         </div>
     </section>
-</body>
 
+    <!-- SECCION PORTAFOLIO -->
+    <section class="contenedor-portafolio" id="portfolio">
+        <h2>PORTAFOLIO</h2>
+        <div class="contenido-portafolio" id="portafolio">
+            
+        </div>
+        
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                calle Falsa 123 - Urbanizacion Arboleda
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2384 - 4343443 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: www.example@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+
+</body>
+<script src="./js/proyectos,js"></script>
 </html>

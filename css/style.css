@@ -241,6 +241,11 @@ html{
     transition: 1s;
 }
 
+.contenedor-sobremi button a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .contenedor-sobremi button:hover .overlay{
     width: 100%;
 }
